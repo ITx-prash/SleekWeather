@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function displayWeatherData(data) {
     console.log(data);
     weatherInfo.classList.remove("hidden");
-
+    errorMsg.classList.add("hidden");
     const { name, main, weather, sys, wind, clouds } = data;
     cityNameDisplay.textContent = `${name} (${sys.country})`;
     temperatureDisplay.textContent = `
