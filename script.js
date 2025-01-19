@@ -1,4 +1,3 @@
-//will do soon
 document.addEventListener("DOMContentLoaded", () => {
   const cityInput = document.getElementById("city-input");
   const weatherBtn = document.getElementById("get-weather-btn");
